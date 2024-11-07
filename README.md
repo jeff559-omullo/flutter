@@ -1,124 +1,100 @@
-<a href="https://flutter.dev/">
-  <h1 align="center">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://storage.googleapis.com/cms-storage-bucket/6e19fee6b47b36ca613f.png">
-      <img alt="Flutter" src="https://storage.googleapis.com/cms-storage-bucket/c823e53b3a1a7b0d36a9.png">
-    </picture>
-  </h1>
-</a>
+se-Day 3 - Environment Setup Assignment
+#Dart & Flutter
 
-[![Flutter CI Status](https://flutter-dashboard.appspot.com/api/public/build-status-badge?repo=flutter)](https://flutter-dashboard.appspot.com/#/build?repo=flutter)
-[![Discord badge][]][Discord instructions]
-[![Twitter handle][]][Twitter badge]
-[![codecov](https://codecov.io/gh/flutter/flutter/branch/master/graph/badge.svg?token=11yDrJU2M2)](https://codecov.io/gh/flutter/flutter)
-[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/5631/badge)](https://bestpractices.coreinfrastructure.org/projects/5631)
-[![SLSA 1](https://slsa.dev/images/gh-badge-level1.svg)](https://slsa.dev)
+What is the first step for installing Dart on a Windows machine?
+A) Install Homebrew
+B) Download the Dart SDK
+C) Update your PATH
+D) Run Dart Doctor
 
-Flutter is Google's SDK for crafting beautiful, fast user experiences for
-mobile, web, and desktop from a single codebase. Flutter works with existing
-code, is used by developers and organizations around the world, and is free and
-open source.
+Which command verifies the Dart installation on macOS?
+A) dart --install
+B) dart --check
+C) dart --verify
+D) dart --version
 
-## Documentation
+What is the next step after downloading and extracting the Flutter SDK on Linux?
+A) Install Homebrew
+B) Update your PATH
+C) Run Flutter Doctor
+D) Create a new Flutter project
 
-* [Install Flutter](https://flutter.dev/get-started/)
-* [Flutter documentation](https://docs.flutter.dev/)
-* [Development wiki](./docs/README.md)
-* [Contributing to Flutter](https://github.com/flutter/flutter/blob/main/CONTRIBUTING.md)
+What command is used to run a newly created Flutter app?
+A) flutter start
+B) flutter build
+C) flutter run
+D) flutter init
 
-For announcements about new releases, follow the
-[flutter-announce@googlegroups.com](https://groups.google.com/forum/#!forum/flutter-announce)
-mailing list. Our documentation also tracks [breaking
-changes](https://docs.flutter.dev/release/breaking-changes) across releases.
+#Python Installation
 
-## Terms of service
+What is the first step to install Python on a Windows system?
 
-The Flutter tool may occasionally download resources from Google servers. By
-downloading or using the Flutter SDK, you agree to the Google Terms of Service:
-https://policies.google.com/terms
+A) Run the installer without any customization
+B) Download Python from the official website
+C) Open the terminal and type sudo apt install python
+D) Install pip manually
 
-For example, when installed from GitHub (as opposed to from a prepackaged
-archive), the Flutter tool will download the Dart SDK from Google servers
-immediately when first run, as it is used to execute the `flutter` tool itself.
-This will also occur when Flutter is upgraded (e.g. by running the `flutter
-upgrade` command).
+Which option should you ensure is checked during Python installation on Windows?
 
-## About Flutter
+A) Install with default settings
+B) Install to a custom directory
+C) Add Python to PATH
+D) Install all available features
 
-We think Flutter will help you create beautiful, fast apps, with a productive,
-extensible and open development model, whether you're targeting iOS or Android,
-web, Windows, macOS, Linux or embedding it as the UI toolkit for a platform of
-your choice.
+How do you verify Python installation on any system?
 
-### Beautiful user experiences
+A) By running python --version
+B) By restarting your computer
+C) By opening the Python installer again
+D) By checking the Programs and Features in Control Panel
 
-We want to enable designers to deliver their full creative vision without being
-forced to water it down due to limitations of the underlying framework.
-Flutter's [layered architecture] gives you control over every pixel on the
-screen and its powerful compositing capabilities let you overlay and animate
-graphics, video, text, and controls without limitation. Flutter includes a full
-[set of widgets][widget catalog] that deliver pixel-perfect experiences whether
-you're building for iOS ([Cupertino]) or other platforms ([Material]), along with
-support for customizing or creating entirely new visual components.
+What command is used to install pip on macOS and Linux?
 
-<p align="center"><img src="https://github.com/flutter/website/blob/main/src/content/assets/images/docs/homepage/reflectly-hero-600px.png?raw=true" alt="Reflectly hero image"></p>
+A) sudo install pip
+B) pip install python
+C) curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+D) python --install pip
 
-### Fast results
+What is the purpose of a virtual environment in Python?
 
-Flutter is fast. It's powered by hardware-accelerated 2D graphics
-libraries like [Skia] (which underpins Chrome and Android) and
-[Impeller]. We architected Flutter to
-support glitch-free, jank-free graphics at the native speed of your device.
+A) To keep your projects organized in one folder
+B) To install Python in a different directory
+C) To separate project dependencies and avoid conflicts
+D) To enhance Python performance on your system
 
-Flutter code is powered by the world-class [Dart platform], which enables
-compilation to 32-bit and 64-bit ARM machine code for iOS and Android,
-JavaScript and WebAssembly for the web, as well as Intel x64 and ARM
-for desktop devices.
+#MySQL Installation
 
-<p align="center"><img src="https://github.com/flutter/website/blob/main/src/content/assets/images/docs/homepage/dart-diagram-small.png?raw=true" alt="Dart diagram"></p>
+What is the first step to install MySQL on Windows?
 
-### Productive development
+A) Download MySQL Shell
+B) Download MySQL Installer from the official website
+C) Install MySQL Workbench
+D) Set up a root password
 
-Flutter offers [stateful hot reload][Hot reload], allowing you to make changes to your code
-and see the results instantly without restarting your app or losing its state.
+What setup type should you choose for a custom MySQL installation?
 
-[![Hot reload animation][]][Hot reload]
+A) Developer Default
+B) Server Only
+C) Full
+D) Custom
 
-### Extensible and open model
+Which products should you select during the MySQL installation?
 
-Flutter works with any development tool (or none at all), and also includes
-editor plug-ins for both [Visual Studio Code] and [IntelliJ / Android Studio].
-Flutter provides [tens of thousands of packages][Flutter packages] to speed your
-development, regardless of your target platform. And accessing other native code
-is easy, with support for both FFI ([on Android][Android FFI], [on iOS][iOS FFI],
-[on macOS][macOS FFI], and [on Windows][Windows FFI]) as well as
-[platform-specific APIs][platform channels].
+A) MySQL Server, MySQL Workbench, and MySQL Shell
+B) Only MySQL Server
+C) MySQL Server and MySQL Router
+D) MySQL Workbench and MySQL Utilities
 
-Flutter is a fully open-source project, and we welcome contributions.
-Information on how to get started can be found in our
-[contributor guide](CONTRIBUTING.md).
+What is the purpose of setting a root password during MySQL installation?
 
-[flutter.dev]: https://flutter.dev
-[Discord instructions]: ./docs/contributing/Chat.md
-[Discord badge]: https://img.shields.io/discord/608014603317936148?logo=discord
-[Twitter handle]: https://img.shields.io/twitter/follow/flutterdev.svg?style=social&label=Follow
-[Twitter badge]: https://twitter.com/intent/follow?screen_name=flutterdev
-[layered architecture]: https://docs.flutter.dev/resources/inside-flutter
-[architectural overview]: https://docs.flutter.dev/resources/architectural-overview
-[widget catalog]: https://flutter.dev/widgets/
-[Cupertino]: https://docs.flutter.dev/development/ui/widgets/cupertino
-[Material]: https://docs.flutter.dev/development/ui/widgets/material
-[Skia]: https://skia.org/
-[Dart platform]: https://dart.dev/
-[Hot reload animation]: https://github.com/flutter/website/blob/main/src/assets/images/docs/tools/android-studio/hot-reload.gif?raw=true
-[Hot reload]: https://docs.flutter.dev/development/tools/hot-reload
-[Visual Studio Code]: https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter
-[IntelliJ / Android Studio]: https://plugins.jetbrains.com/plugin/9212-flutter
-[Flutter packages]: https://pub.dev/flutter
-[Android FFI]: https://docs.flutter.dev/development/platform-integration/android/c-interop
-[iOS FFI]: https://docs.flutter.dev/development/platform-integration/ios/c-interop
-[macOS FFI]: https://docs.flutter.dev/development/platform-integration/macos/c-interop
-[Windows FFI]: https://docs.flutter.dev/development/platform-integration/windows/building#integrating-with-windows
-[platform channels]: https://docs.flutter.dev/development/platform-integration/platform-channels
-[interop example]: https://github.com/flutter/flutter/tree/main/examples/platform_channel
-[Impeller]: https://docs.flutter.dev/perf/impeller
+A) To create a user account for your MySQL server
+B) To secure your MySQL installation with a super-secret password
+C) To activate MySQL Workbench
+D) To allow multiple users to access MySQL
+
+How do you begin managing your database after installing MySQL?
+
+A) Start by installing additional plugins
+B) Launch MySQL Workbench and connect to your MySQL Server
+C) Run mysqladmin start in the terminal
+D) Restart your computer to activate MySQL
